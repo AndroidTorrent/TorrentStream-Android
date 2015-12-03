@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements TorrentListener {
                 return;
             }
             //mTorrentStream.startStream("https://yts.to/torrent/download/D60795899F8488E7E489BA642DEFBCE1B23C9DA0.torrent");
-            mTorrentStream.startStream(mStreamUrl);
+            mTorrentStream.startStream(mStreamUrl); // Start Torrent Stream download to phone
             mButton.setText("Stop stream");
         }
     };
